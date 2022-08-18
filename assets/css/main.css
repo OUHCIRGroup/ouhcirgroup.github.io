@@ -1187,7 +1187,7 @@
 	}
 	
 	h3.major {
-		border-bottom: solid 5px #e7eae8;
+		/*border-bottom: solid 5px #e7eae8;*/
 		line-height: 1em;
 		letter-spacing: 1px;
 		text-align:center;
@@ -2752,6 +2752,7 @@
 		/* Footer */
 
 			#footer {
+				text-align: center;
 				padding: 4em 20px 2em 20px;
 			}
 
@@ -2823,6 +2824,7 @@
 					z-index: 1000;
 					text-align: center;
 					vertical-align: center;
+					margin-left: 44px;
 				}
 
 				#titleBar .toggle {
