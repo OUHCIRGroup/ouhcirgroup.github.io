@@ -2800,7 +2800,6 @@
 				-moz-transition: -moz-transform 0.5s ease;
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
-				transition: transform 0.5s ease;
 				display: block;
 				height: 44px;
 				left: 0;
@@ -2809,6 +2808,7 @@
 				width: 100%;
 				z-index: 10001;
 				background-color: rgba(21, 38, 23, 0.8);
+				transition: top 0.3s, transform 0.5s ease;
 /*				background-image: url("images/overlay.png");*/
 			}
 

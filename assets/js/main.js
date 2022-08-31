@@ -20,6 +20,8 @@
 			}
 		});
 
+
+
 	$(function() {
 
 		var	$window = $(window),
@@ -61,10 +63,11 @@
 				$(
 					'<div id="titleBar">' +
 						'<a href="#navPanel" class="toggle"></a>' +
-						'<span class="title">' + $('#logo').html() + '</span>' +
+						'<span class="title">' + $('#shorttitle').html() + '</span>' +
 					'</div>'
 				)
 					.appendTo($body);
+				$('body').prepend('<br>');
 
 			// Navigation Panel.
 				$(
@@ -92,5 +95,17 @@
 						.css('transition', 'none');
 
 	});
+
+
+	var prevScrollpos = window.pageYOffset;
+	window.onscroll = function() {
+	  var currentScrollPos = window.pageYOffset;
+	  if (prevScrollpos > currentScrollPos) {
+	    document.getElementById("titleBar").style.top = "0";
+	  } else {
+	    document.getElementById("titleBar").style.top = "-50px";
+	  }
+	  prevScrollpos = currentScrollPos;
+	}	
 
 })(jQuery);
