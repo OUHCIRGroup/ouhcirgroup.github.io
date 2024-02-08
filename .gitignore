@@ -1,2 +1,7 @@
 _site/
 .jekyll-cache/
+assets/.DS_Store
+assets/css/.DS_Store
+assets/fonts/.DS_Store
+assets/sass/.DS_Store
+images/.DS_Store
