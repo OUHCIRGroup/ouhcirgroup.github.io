@@ -84,7 +84,7 @@ export function Header() {
         >
           <span className="flex flex-col leading-tight">
             <span className="text-xl font-bold tracking-tight">HCIR Lab</span>
-            <span className="hidden text-xs text-muted-foreground sm:block">
+            <span className="hidden text-blue-600 text-xs  sm:block">
               Human-Computer Interaction &amp; Recommendation
             </span>
           </span>
@@ -114,14 +114,7 @@ export function Header() {
                         </div>
                       </Link>
                     </NavigationMenuLink>
-                    <NavigationMenuLink asChild>
-                      <Link href="/#publications">
-                        <div className="font-medium">Recent Publications</div>
-                        <div className="text-muted-foreground">
-                          Explore our recent pulications
-                        </div>
-                      </Link>
-                    </NavigationMenuLink>
+
                     <NavigationMenuLink asChild>
                       <Link href="/#join-us">
                         <div className="font-medium">Join Us</div>

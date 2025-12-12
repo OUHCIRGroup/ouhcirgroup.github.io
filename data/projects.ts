@@ -8,6 +8,13 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: "imls",
+    title: "Integrating Generative AI into Children's Maker-Based Learning",
+    image: "/projects/imls.jpg",
+    description:
+      "This IMLS project investigates the need and feasibility of integrating Generative Al models, interfaces, and agents into children's information seeking, evaluation, and maker-based learning experiences, particularly under STEM+C (science, technology, engineering, mathematics, and computing), in public libraries. The project explores how Large Language Model (LLM)-enabled conversational systems can be utilized and evaluated to better address children's needs in hands-on maker-based learning activities, and at the same time, how maker-based experience can be used to promote children's learning skills and Al literacy. Award number: LG-257169-OLS",
+  },
+  {
     id: "human-bias-fairness-explainability",
     title: "Human Bias, Fairness, and Explainability in Human-AI Interactions",
     image: "/projects/HAII.png",

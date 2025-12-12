@@ -35,7 +35,7 @@ export const peopleSections: PeopleSection[] = [
         name: "Jiqun Liu",
         category: "faculty",
         image: "/people/jiqunliu.png",
-        role: "Assistant Professor and Lab Director",
+        role: "Associate Professor and Lab Director",
         affiliation:
           "School of Library and Information Studies, University of Oklahoma",
         website: "https://jiqunl.github.io/me/",
@@ -90,31 +90,63 @@ export const peopleSections: PeopleSection[] = [
     title: "Master Students",
     people: [
       {
-        id: "darius-jones",
-        name: "Darius Jones",
+        id: "jamshed-karimnazarov",
+        name: "Jamshed Karimnazarov",
         category: "masters",
-        image: "/people/dariusjones.jpg",
-        role: "M.S. Data Science, OU DSAI",
-        period: "2022.2 –",
+        image: "/people/Jamshed.jpg",
+        role: "Computer Science, OU",
+        period: "2025 –",
         description:
-          "Research Interests: User behavior analysis; user-centered information retrieval evaluation.",
+          "Keywords: Machine Learning, Large Language Models, Recommendation Systems.",
       },
       {
-        id: "tyler-brown",
-        name: "Tyler Brown",
+        id: "nischal-dinesh",
+        name: "Nischal Dinesh",
         category: "masters",
-        image: "/people/tyler.jpg",
-        role: "M.S. Data Science, OU DSAI",
-        period: "2021.6 –",
+        image: "/people/nischal.png",
+        role: "Computer Science, OU",
+        period: "2025 –",
+        description: "Keywords: Large Language Models, Big Data",
+      },
+    ],
+  },
+
+  // {
+  //   id: "undergrad",
+  //   title: "Undergraduate Students",
+  //   people: [],
+  // },
+
+  {
+    id: "visitors",
+    title: "Visitors & External Student Collaborators",
+    people: [
+      {
+        id: "yuhao-zhang",
+        name: "Yuhao Zhang",
+        category: "visitors",
+        image: "/people/Yuhao.jpg",
+        role: "Visiting PhD Student, Renmin University of China",
+        period: "2022 –",
         description:
-          "Research Interests: Expectation-aware information retrieval evaluation.",
+          "My research interests are in digital inequality, community informatics, and interactive information seeking, with a focus on promoting digital equity for disadvantaged groups.",
+      },
+
+      {
+        id: "tianji-jiang",
+        name: "Tianji Jiang",
+        category: "visitors",
+        role: "PhD Student, UCLA",
+        period: "2021.7 –",
+        description:
+          "Research Interests: Biases and limitations in user experiment reporting, human information behavior.",
       },
     ],
   },
 
   {
-    id: "undergrad",
-    title: "Undergraduate Students",
+    id: "alumni",
+    title: "Alumni",
     people: [
       {
         id: "diego-cifuentes-madero",
@@ -136,16 +168,7 @@ export const peopleSections: PeopleSection[] = [
         description:
           "Keywords: Machine Learning, Cybersecurity, Human-Computer Interaction.",
       },
-      {
-        id: "jamshed-karimnazarov",
-        name: "Jamshed Karimnazarov",
-        category: "undergrad",
-        image: "/people/Jamshed.jpg",
-        role: "Computer Science, OU",
-        period: "2023.5 –",
-        description:
-          "Keywords: Machine Learning, Large Language Models, Recommendation Systems.",
-      },
+
       {
         id: "nicolas-thompson",
         name: "Nicolas Thompson",
@@ -194,48 +217,26 @@ export const peopleSections: PeopleSection[] = [
         description:
           "Research Interests: Human-Computer Interaction, Data Analytics.",
       },
-    ],
-  },
-
-  {
-    id: "visitors",
-    title: "Visitors & External Student Collaborators",
-    people: [
       {
-        id: "yuhao-zhang",
-        name: "Yuhao Zhang",
-        category: "visitors",
-        image: "/people/Yuhao.jpg",
-        role: "Visiting PhD Student, Renmin University of China",
-        period: "2022 –",
+        id: "darius-jones",
+        name: "Darius Jones",
+        category: "masters",
+        image: "/people/dariusjones.jpg",
+        role: "M.S. Data Science, OU DSAI",
+        period: "2022.2 –",
         description:
-          "My research interests are in digital inequality, community informatics, and interactive information seeking, with a focus on promoting digital equity for disadvantaged groups.",
+          "Research Interests: User behavior analysis; user-centered information retrieval evaluation.",
       },
       {
-        id: "fangyuan-han",
-        name: "Fangyuan Han",
-        category: "visitors",
-        role: "MS Student, Xiamen University",
-        period: "2020.9 –",
+        id: "tyler-brown",
+        name: "Tyler Brown",
+        category: "masters",
+        image: "/people/tyler.jpg",
+        role: "M.S. Data Science, OU DSAI",
+        period: "2021.6 –",
         description:
-          "Research Interests: Users’ systematic biases in information retrieval and recommender systems.",
+          "Research Interests: Expectation-aware information retrieval evaluation.",
       },
-      {
-        id: "tianji-jiang",
-        name: "Tianji Jiang",
-        category: "visitors",
-        role: "PhD Student, UCLA",
-        period: "2021.7 –",
-        description:
-          "Research Interests: Biases and limitations in user experiment reporting, human information behavior.",
-      },
-    ],
-  },
-
-  {
-    id: "alumni",
-    title: "Alumni",
-    people: [
       {
         id: "satanu-ghosh",
         name: "Satanu Ghosh",
