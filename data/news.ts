@@ -7,6 +7,9 @@ export const labNewsByYear: LabNewsYear[] = [
   {
     year: 2025,
     items: [
+      `PhD candidate Ben Wang has successfully defended his dissertation titled “LLM-based Long-Term Life Task Planning to Reduce Human Uncertainty”. He is now working as an Applied Scientist at Amazon. Congratulations!`,
+      `New Grant: Institute of Museum and Library Services (IMLS) NLG award: “Gauging Library Needs for Integrating Generative AI into Children’s Maker-based Learning”. ($150,000, PI: Dr. Jiqun Liu, co-PI: Dr. Yong Ju Jung).`,
+      `PhD student Maddy Nazari passed her General Exam. Congratulations!`,
       `Our paper “Re-rankers are effective reference judgment predictors” (with Chuan Meng, Jiqun Liu, Mohammad Aliannejadi, Fengran Mo, and Maarten de Rijke) accepted to LLM4EVAL workshop at ACM SIGIR 2025!`,
       `Our project “Syllabi and Activities for AI-Assisted Maker Education: Design and Evaluation” received a funding award of $9,964 from OU DISC Summer AI Project Seed Funding program.`,
       `PhD Candidate Ben Wang passed his dissertation proposal (titled “LLM-based long-term task planning to reduce human uncertainty”) defense! Congratulations!`,

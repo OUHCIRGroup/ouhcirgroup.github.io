@@ -5,67 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="font-sans">
-      <main className="mx-auto flex w-full max-w-6xl flex-col px-6 py-10 sm:px-10 lg:px-16">
-        {/* ABOUT SECTION */}
-        {/* <section
-          id="about"
-          className="grid w-full gap-10 scroll-mt-24 md:grid-cols-2 md:items-start"
-        >
-          <aside className="flex justify-center md:justify-start">
-            <Image
-              src="/hcir.png"
-              alt="OU HCIR Lab"
-              height={600}
-              width={600}
-              className="object-contain"
-            />
-          </aside>
-
-          <section className="space-y-3 md:text-left text-justify">
-            <p className="text-md leading-relaxed text-left text-zinc-700 dark:text-zinc-300">
-              At the{" "}
-              <span className="font-bold">
-                OU Human-Computer Interaction and Recommendation
-              </span>{" "}
-              (HCIR) Lab, we are working toward modeling and supporting people’s
-              problem-solving and decision-making activities with intelligent
-              information search and recommender systems, and understanding the
-              economic, societal, and ethical impacts of advanced search and
-              recommendation algorithms.
-            </p>
-
-            <p className="text-md leading-relaxed text-left text-zinc-700 dark:text-zinc-300">
-              Our long-term research goal is to provide useful, timely, fair,
-              and responsible information support for people from diverse
-              backgrounds and communities. Our methods include computational
-              approaches such as data/text mining, deep learning, and natural
-              language processing, as well as qualitative, participatory, and
-              user study research methods.
-            </p>
-
-            <p className="text-md leading-relaxed text-left text-zinc-700 dark:text-zinc-300">
-              Topics of interest include user biases in information
-              interactions, intelligent information retrieval, bias-aware
-              recommender systems, and adaptive information system evaluation.
-            </p>
-
-            <p className="text-md leading-relaxed text-left text-zinc-700 dark:text-zinc-300">
-              The Principal Investigator,{" "}
-              <Link
-                className="font-bold text-blue-500"
-                href="https://jiqunl.github.io/me/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Dr. Jiqun Liu
-              </Link>
-              , started this lab in 2020. Dr. Liu is an interdisciplinary
-              information science researcher by training, with research
-              interests, including information retrieval, recommender system,
-              bounded rationality, and ethics in human-computer interaction.
-            </p>
-          </section>
-        </section> */}
+      <main className="mx-auto flex w-full max-w-6xl flex-col px-6 py-4 sm:px-10 lg:px-16">
         <section
           id="about"
           className="grid w-full gap-10 scroll-mt-24 md:grid-cols-2 md:items-start"
@@ -135,7 +75,7 @@ export default function Home() {
           id="lab-news"
           className="mt-12 border-t border-zinc-200 pt-8 scroll-mt-24 dark:border-zinc-800"
         >
-          <h2 className="text-xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">
+          <h2 className="text-xl  font-bold tracking-tight text-blue-500">
             Lab News
           </h2>
 
@@ -163,7 +103,7 @@ export default function Home() {
           id="join-us"
           className="mt-12 border-t border-zinc-200 pt-8 scroll-mt-24 dark:border-zinc-800"
         >
-          <h2 className="text-xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">
+          <h2 className="text-xl font-bold tracking-tight text-blue-500">
             Join Us
           </h2>
 

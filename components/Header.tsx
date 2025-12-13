@@ -63,7 +63,7 @@ export function Header() {
   return (
     <header
       className="
-        sticky top-0 z-50
+        sticky top-0 z-60
         w-full border-b
         bg-white/90 dark:bg-black/90
         backdrop-blur
@@ -83,9 +83,9 @@ export function Header() {
           onClick={closeMobile}
         >
           <span className="flex flex-col leading-tight">
-            <span className="text-xl font-bold tracking-tight">HCIR Lab</span>
-            <span className="hidden text-blue-600 text-xs  sm:block">
-              Human-Computer Interaction &amp; Recommendation
+            {/* <span className="text-3xl  font-extrabold md:pl-11">HCIR Lab</span> */}
+            <span className="bg-linear-to-r from-blue-600 via-violet-600 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent md:pl-11">
+              HCIR Lab
             </span>
           </span>
         </Link>

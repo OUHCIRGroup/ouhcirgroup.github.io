@@ -1,20 +1,18 @@
-// data/publications.ts
-
 export type PublicationType = "journal" | "conference" | "book" | "other";
 
 export interface PublicationLink {
-  label: string; // e.g., "Paper", "Code", "Slides", "Poster", "Tutorial"
+  label: string;
   url: string;
 }
 
 export interface Publication {
   id: string;
   year: number;
-  type: PublicationType; // based on original "j", "c", "b"
+  type: PublicationType;
   authors: string;
   title: string;
   venue: string;
-  extra?: string; // awards / notes
+  extra?: string;
   links?: PublicationLink[];
 }
 
@@ -27,8 +25,122 @@ export interface PublicationYearGroup {
 
 export const publicationsByYear: PublicationYearGroup[] = [
   {
+    year: 2026,
+    items: [
+      {
+        id: "he2026-transparency",
+        year: 2026,
+        type: "conference",
+        authors: "He, J. & Liu, J.",
+        title:
+          "Not All Transparency Is Equal: Source Presentation Effects on Attention, Interaction, and Persuasion in Conversational Search",
+        venue:
+          "In Proceedings of the ACM SIGIR Conference on Human Information Interaction and Retrieval. New York, NY: ACM (CHIIR).",
+      },
+      {
+        id: "jiang2026-data-reusability-community",
+        year: 2026,
+        type: "conference",
+        authors: "Jiang, T., Li, W., & Liu, J.",
+        title:
+          "Improving data reusability in interactive information retrieval: Insights from the community",
+        venue:
+          "In Proceedings of the ACM SIGIR Conference on Human Information Interaction and Retrieval. New York, NY: ACM (CHIIR).",
+      },
+      {
+        id: "dewan2026-true",
+        year: 2026,
+        type: "conference",
+        authors: "Dewan, M., Liu, J., & Shah, C.",
+        title:
+          "TRUE: A reproducible framework for LLM-driven relevance judgment in information retrieval",
+        venue:
+          "In Proceedings of the 19th ACM International Conference on Web Search and Data Mining. Boise, Idaho. 4 pages. (WSDM).",
+        links: [
+          {
+            label: "Preprint",
+            url: "https://arxiv.org/pdf/2509.25602",
+          },
+        ],
+      },
+      {
+        id: "chen2026-threshold-priming",
+        year: 2026,
+        type: "conference",
+        authors: "Chen, N., Fang, H., Liu, J., Wei, W., Sakai, T., & Wu, X-M.",
+        title:
+          "Mitigating the threshold priming effect in large language model-based relevance judgments via personality simulation",
+        venue:
+          "In Proceedings of the 19th ACM International Conference on Web Search and Data Mining. Boise, Idaho. 4 pages. (WSDM).",
+        links: [
+          {
+            label: "Preprint",
+            url: "https://arxiv.org/pdf/2512.00390",
+          },
+        ],
+      },
+    ],
+  },
+  {
     year: 2025,
     items: [
+      {
+        id: "jung2025-maker-stem-genai",
+        year: 2025,
+        type: "conference",
+        authors: "Jung, Y. J., Liu, J., Nazari, M & Karahan, H.",
+        title:
+          "Empowering children’s maker-based STEM learning through Generative AI in public libraries",
+        venue:
+          "In Proceedings of the Association for Information Science and Technology. (ASIS&T).",
+        links: [
+          {
+            label: "Paper",
+            url: "https://dl.acm.org/doi/10.1002/pra2.1450",
+          },
+        ],
+      },
+      {
+        id: "lei2025-teams-productivity-ir",
+        year: 2025,
+        type: "journal",
+        authors: "Lei, J., Hu, L., Bu, Y. & Liu, J.",
+        title:
+          "Understanding teams and productivity in information retrieval research: Academia, industry, and cross-community collaborations",
+        venue: "Journal of Data and Information Science (JDIS).",
+      },
+      {
+        id: "liu2025-tutorials-cognitive-biases",
+        year: 2025,
+        type: "journal",
+        authors: "Liu, J., & Azzopardi, L.",
+        title:
+          "Report on the CHIIR 2024, SIGIR 2024, and SIGIR-AP 2024 tutorials on Characterizing, Evaluating, and Mitigating Cognitive Biases in Interactive and Generative IR",
+        venue:
+          "In ACM SIGIR Forum (Vol. 59, No. 1, pp. 1-13). New York, NY, USA: ACM.",
+        links: [
+          {
+            label: "Paper",
+            url: "https://dl.acm.org/doi/10.1145/3769733.3769736",
+          },
+        ],
+      },
+      {
+        id: "yu2025-chat-as-learning",
+        year: 2025,
+        type: "journal",
+        authors: "Yu, R., & Liu, J.",
+        title:
+          "Chat as Learning in Interactive Information Retrieval and Generation",
+        venue:
+          "In ACM SIGIR Forum (Vol. 59, No. 1, pp. 1-19). New York, NY, USA: ACM.",
+        links: [
+          {
+            label: "Paper",
+            url: "https://dl.acm.org/doi/10.1145/3769733.3769735",
+          },
+        ],
+      },
       {
         id: "jiang2025-data-reuse",
         year: 2025,
