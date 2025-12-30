@@ -25,7 +25,7 @@ export default function ProjectsPage() {
               {/* Image */}
               {project.image && (
                 <div className="sm:w-1/3">
-                  <div className="relative h-44 w-full overflow-hidden border-zinc-200  dark:border-zinc-700 dark:bg-zinc-800 sm:h-60">
+                  <div className="relative h-44 w-full overflow-hidden border-zinc-200 dark:border-zinc-700 dark:bg-zinc-800 sm:h-60">
                     <Image
                       src={project.image}
                       alt={project.title}
@@ -38,9 +38,17 @@ export default function ProjectsPage() {
 
               {/* Text */}
               <div className="flex-1 space-y-2">
-                <h2 className="text-lg font-semibold leading-snug text-gray-900 dark:text-white">
-                  {project.title}
-                </h2>
+                {project.id === "imls" ? (
+                  <Link href={`/projects/${project.id}`}>
+                    <h2 className="text-lg font-semibold leading-snug text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400">
+                      {project.title}
+                    </h2>
+                  </Link>
+                ) : (
+                  <h2 className="text-lg font-semibold leading-snug text-gray-900 dark:text-white">
+                    {project.title}
+                  </h2>
+                )}
 
                 <p className="text-sm leading-relaxed text-gray-700 dark:text-gray-300 text-justify">
                   {project.description}

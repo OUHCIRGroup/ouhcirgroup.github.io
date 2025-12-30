@@ -5,7 +5,7 @@ export type Project = {
   image: string;
   links?: { label: string; url: string }[];
 };
-
+   
 export const projects: Project[] = [
   {
     id: "imls",
