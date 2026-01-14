@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function IMLSProjectPage() {
   return (
     <section className="bg-white dark:bg-gray-900">
-      <div className="mx-auto max-w-4xl px-6 py-6 sm:px-10 lg:px-16">
+      <div className="mx-auto max-w-4xl px-6 py-4 sm:px-10 lg:px-16">
         {/* Back link and IMLS logo on same line */}
         <div className="mb-2 flex items-center justify-between">
           {/* <Link
@@ -15,8 +15,8 @@ export default function IMLSProjectPage() {
           <Image
             src="/projects/imls_logo.png"
             alt="IMLS Logo"
-            width={120}
-            height={80}
+            width={240}
+            height={160}
             className="object-contain"
           />
         </div>
