@@ -168,14 +168,107 @@ export default function IMLSProjectPage() {
           </p>
         </div>
 
-        {/* Advisory Board placeholder */}
-        <div className="rounded-lg border border-dashed border-zinc-300 bg-zinc-50 p-4 dark:border-zinc-600 dark:bg-zinc-800">
-          <h2 className="mb-2 text-xl font-semibold text-gray-900 dark:text-white">
+        <div className="mb-8">
+          <h2 className="mb-6 text-xl font-semibold text-gray-900 dark:text-white">
             Advisory Board
           </h2>
-          <p className="text-sm italic text-gray-500 dark:text-gray-400">
-            Advisory board member information coming soon.
-          </p>
+          <div className="flex flex-col gap-6">
+            {/* Caroline Flory */}
+            <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:border-blue-200 dark:border-zinc-700 dark:bg-zinc-800 dark:hover:border-blue-600">
+              <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-center">
+                <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-full border-4 border-zinc-100 shadow-inner dark:border-zinc-600">
+                  <Image
+                    src="/ab_members/Flory.jpeg"
+                    alt="Caroline Flory"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="text-center sm:text-left">
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                    Caroline Flory
+                  </h3>
+                  <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-300">
+                    Caroline works in Maker + STEAM services in a public
+                    library. She has loved libraries since before she could
+                    read, and she enjoys incorporating science and arts and her
+                    background in kinesiology into accessible and creative
+                    programs. When not at the library, Caroline loves spending
+                    time with her kids (who love to read, too!) and her favorite
+                    people, reading, hiking, exploring, learning, and music.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Soo Hyeon Kim */}
+            <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:border-blue-200 dark:border-zinc-700 dark:bg-zinc-800 dark:hover:border-blue-600">
+              <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-center">
+                <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-full border-4 border-zinc-100 shadow-inner dark:border-zinc-600">
+                  <Image
+                    src="/ab_members/Kim.jpeg"
+                    alt="Soo Hyeon Kim"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="text-center sm:text-left">
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                    Soo Hyeon Kim
+                  </h3>
+                  <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-300">
+                    Soo Hyeon Kim, Ph.D. is an Assistant Professor in the
+                    Department of Library and Information Science at Indiana
+                    University Indianapolis. Dr. Kim’s research spans across
+                    library makerspace, maker-based STEM learning in public
+                    libraries, and intergenerational participation. Her research
+                    aims to broaden and support children’s STEM learning
+                    opportunities by transforming public libraries and family
+                    interactions as facilitators for tech-supported maker
+                    experiences. She served as a principal investigator for
+                    IMLS-funded Family Makers project that involved rural
+                    librareis to co-design and implement engineering programs
+                    and has widely published in the field of library and
+                    information science and the learning sciences.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Hyewon Park */}
+            <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:border-blue-200 dark:border-zinc-700 dark:bg-zinc-800 dark:hover:border-blue-600">
+              <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-center">
+                <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-full border-4 border-zinc-100 shadow-inner dark:border-zinc-600">
+                  <Image
+                    src="/ab_members/Park.jpeg"
+                    alt="Hyewon Park"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="text-center sm:text-left">
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                    Hyewon Park
+                  </h3>
+                  <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-300">
+                    Hyewon Park, Ph.D., is a Research Data Analyst in the
+                    Department of Public Health Sciences at the UC Davis and
+                    affiliated with the Tobacco Control Evaluation Center (TCEC)
+                    as an Evaluation Associate. She has worked with digitalLIFT,
+                    a nonprofit organization that provides digital literacy
+                    training for adults, as a researcher and a digital literacy
+                    instructor. Her research focuses on digital literacy and
+                    healthy aging, AI literacy training, lifelong learning, and
+                    evaluation for organizational learning. She is passionate
+                    about supporting vulnerable communities and promoting
+                    lifelong learning and empowerment through digital learning
+                    initiatives. Hyewon earned her Ph.D. in Lifelong Learning
+                    and Adult Education from Pennsylvania State University.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
