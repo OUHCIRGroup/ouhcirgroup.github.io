@@ -170,7 +170,7 @@ export default function IMLSProjectPage() {
 
         <div className="mb-8">
           <h2 className="mb-6 text-xl font-semibold text-gray-900 dark:text-white">
-            Advisory Board
+            Advisory Board Members
           </h2>
           <div className="flex flex-col gap-6">
             {/* Caroline Flory */}
@@ -267,6 +267,29 @@ export default function IMLSProjectPage() {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-8">
+          <h2 className="mb-6 text-xl font-semibold text-gray-900 dark:text-white">
+            Parter Library Representatives
+          </h2>
+          <div className="flex flex-col gap-6">
+            <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:border-blue-200 dark:border-zinc-700 dark:bg-zinc-800 dark:hover:border-blue-600">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                Pioneer Library System SOKC Public Library
+              </h3>
+
+              <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-300">
+                Christina Brady is the Children&apos;s Department Manager at the
+                SOKC Branch of the Pioneer Library System. She holds a Master of
+                Education in Curriculum and Instruction from the University of
+                Montana and a Master of Library and Information Science from San
+                Jos&eacute; State University. Christina has served as a public
+                librarian since 2015, fostering a love of learning and literacy
+                in her community.
+              </p>
             </div>
           </div>
         </div>
