@@ -49,6 +49,60 @@ export default function IMLSProjectPage() {
           </p>
         </div>
 
+        <div className="mb-8">
+          <h2 className="mb-3 text-xl font-semibold text-gray-900 dark:text-white">
+            Participate in Our Survey
+          </h2>
+          <p className="mb-4 text-sm leading-relaxed text-gray-700 dark:text-gray-300 text-justify">
+            We are a research team from the University of Oklahoma inviting
+            public library professionals to participate in a survey for our
+            IMLS-funded project: Gauging Library Needs for Integrating
+            Generative AI into Children&apos;s Maker-Based Learning
+            (LG-259132-OLS-25).
+          </p>
+          <p className="mb-4 text-sm leading-relaxed text-gray-700 dark:text-gray-300 text-justify">
+            This project investigates how library professionals perceive the
+            opportunities and challenges of integrating GenAI into
+            children&apos;s maker-based STEM programs. The survey takes
+            approximately 15&ndash;20 minutes and covers your professional
+            background, experiences with STEM or maker programming, and
+            attitudes toward AI in library services.
+          </p>
+          <div className="flex justify-center mb-4">
+            <a
+              href="https://qualtrics.ou.edu/jfe/form/SV_2rFgc308C6ScFOm"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600"
+            >
+              Take the Survey
+            </a>
+          </div>
+          <p className="mb-4 text-sm leading-relaxed text-gray-700 dark:text-gray-300 text-justify">
+            At the end, you may optionally provide your email for a follow-up
+            Zoom interview. Interview participants receive a{" "}
+            <span className="font-medium">$30 e-gift card</span>.
+          </p>
+          <p className="text-sm leading-relaxed text-gray-700 dark:text-gray-300 text-justify">
+            Participation is voluntary and you may skip any question or withdraw
+            at any time. For questions, contact{" "}
+            <a
+              href="mailto:jiqunliu@ou.edu"
+              className="text-blue-600 hover:underline dark:text-blue-400"
+            >
+              Dr. Jiqun Liu
+            </a>{" "}
+            or{" "}
+            <a
+              href="mailto:yongju@ou.edu"
+              className="text-blue-600 hover:underline dark:text-blue-400"
+            >
+              Dr. Yong Ju Jung
+            </a>
+            .
+          </p>
+        </div>
+
         {/* Project Introduction */}
         <div className="mb-8">
           <h2 className="mb-3 text-xl font-semibold text-gray-900 dark:text-white">
@@ -268,6 +322,48 @@ export default function IMLSProjectPage() {
                 </div>
               </div>
             </div>
+
+            <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:border-blue-200 dark:border-zinc-700 dark:bg-zinc-800 dark:hover:border-blue-600">
+              <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-center">
+                {/* <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-full border-4 border-zinc-100 shadow-inner dark:border-zinc-600">
+                  <Image
+                    src="/ab_members/"
+                    alt="Wendy Burnett"
+                    fill
+                    className="object-cover"
+                  />
+                </div> */}
+                <div className="text-center sm:text-left">
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                    Wendy Burnett
+                  </h3>
+                  {/* <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-300">
+                    
+                  </p> */}
+                </div>
+              </div>
+            </div>
+
+            <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:border-blue-200 dark:border-zinc-700 dark:bg-zinc-800 dark:hover:border-blue-600">
+              <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-center">
+                {/* <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-full border-4 border-zinc-100 shadow-inner dark:border-zinc-600">
+                  <Image
+                    src="/ab_members/"
+                    alt="Wendy Burnett"
+                    fill
+                    className="object-cover"
+                  />
+                </div> */}
+                <div className="text-center sm:text-left">
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                    Jiangen He
+                  </h3>
+                  {/* <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-300">
+                    
+                  </p> */}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -290,6 +386,14 @@ export default function IMLSProjectPage() {
                 librarian since 2015, fostering a love of learning and literacy
                 in her community.
               </p>
+            </div>
+
+            <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:border-blue-200 dark:border-zinc-700 dark:bg-zinc-800 dark:hover:border-blue-600">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                Metropolitan Library System Almonte Public Library
+              </h3>
+
+              {/* <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-300"></p> */}
             </div>
           </div>
         </div>

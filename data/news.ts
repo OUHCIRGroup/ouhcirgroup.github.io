@@ -5,6 +5,12 @@ export type LabNewsYear = {
 
 export const labNewsByYear: LabNewsYear[] = [
   {
+    year: 2026,
+    items: [
+      `We are excited to release **[ECHO](https://github.com/OUHCIRGroup/echo)**, an open, low-code research platform for reproducible evaluation of conversational AI and Web search! ECHO enables researchers and students across IR and HCI, social sciences, and humanities to rapidly design and run end-to-end user studies, combining chat, search, surveys, and fine-grained interaction logging, **with little to no coding**. An intro tutorial video is available [here](https://drive.google.com/file/d/1T16fFcsGkQIPIIHZsaMCFw8yEAn2V5ER/view?usp=share_link).`,
+    ],
+  },
+  {
     year: 2025,
     items: [
       `PhD candidate Ben Wang has successfully defended his dissertation titled “LLM-based Long-Term Life Task Planning to Reduce Human Uncertainty”. He is now working as an Applied Scientist at Amazon. Congratulations!`,

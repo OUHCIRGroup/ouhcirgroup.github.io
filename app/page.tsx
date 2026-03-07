@@ -1,6 +1,7 @@
 import { labNewsByYear } from "@/data/news";
 import Image from "next/image";
 import Link from "next/link";
+import ReactMarkdown from "react-markdown";
 
 export default function Home() {
   return (
@@ -85,11 +86,27 @@ export default function Home() {
                 <h3 className="text-md font-semibold uppercase tracking-[0.18em] text-zinc-500 dark:text-zinc-400">
                   {year}
                 </h3>
-                <ul className="space-y-2 text-md leading-relaxed text-zinc-700 dark:text-zinc-300">
+                {/* <ul className="space-y-2 text-md leading-relaxed text-zinc-700 dark:text-zinc-300">
                   {items.map((item, idx) => (
                     <li key={idx} className="flex gap-2">
                       <span className="mt-1.5 h-1.25 w-1.25 shrink-0 rounded-full bg-zinc-400 dark:bg-zinc-500" />
                       <span>{item}</span>
+                    </li>
+                  ))}
+                </ul> */}
+                <ul className="space-y-2 text-md leading-relaxed text-zinc-700 dark:text-zinc-300">
+                  {items.map((item, idx) => (
+                    <li key={idx} className="flex gap-2">
+                      <span className="mt-1.5 h-1.25 w-1.25 shrink-0 rounded-full bg-zinc-400 dark:bg-zinc-500" />
+                      <span className="[&_a]:text-blue-600 [&_a]:underline [&_strong]:font-semibold">
+                        <ReactMarkdown
+                          components={{
+                            p: ({ children }) => <>{children}</>,
+                          }}
+                        >
+                          {item}
+                        </ReactMarkdown>
+                      </span>
                     </li>
                   ))}
                 </ul>
