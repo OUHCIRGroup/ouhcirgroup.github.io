@@ -185,6 +185,15 @@ export function Header() {
                 asChild
                 className={navigationMenuTriggerStyle()}
               >
+                <Link href="/tate">TATE initiative</Link>
+              </NavigationMenuLink>
+            </NavigationMenuItem>
+
+            <NavigationMenuItem>
+              <NavigationMenuLink
+                asChild
+                className={navigationMenuTriggerStyle()}
+              >
                 <Link href="/contact">Contact Us</Link>
               </NavigationMenuLink>
             </NavigationMenuItem>
@@ -266,6 +275,13 @@ export function Header() {
               onClick={closeMobile}
             >
               Publications
+            </Link>
+            <Link
+              href="/"
+              className="rounded-md px-2 py-1.5 hover:bg-zinc-100 dark:hover:bg-zinc-900"
+              onClick={closeMobile}
+            >
+              TATE
             </Link>
             <Link
               href="/"
