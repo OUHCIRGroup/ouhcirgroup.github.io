@@ -12,7 +12,7 @@ export default function TATEPage() {
           </div>
 
           <div className="flex flex-col items-center gap-4">
-            <div className="relative h-24 w-24">
+            <div className="relative h-44 w-44">
               <Image
                 src="/TATE.png"
                 alt="TATE project logo"
