@@ -325,21 +325,28 @@ export default function IMLSProjectPage() {
 
             <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:border-blue-200 dark:border-zinc-700 dark:bg-zinc-800 dark:hover:border-blue-600">
               <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-center">
-                {/* <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-full border-4 border-zinc-100 shadow-inner dark:border-zinc-600">
+                <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-full border-4 border-zinc-100 shadow-inner dark:border-zinc-600">
                   <Image
-                    src="/ab_members/"
+                    src="/ab_members/wendy.jpeg"
                     alt="Wendy Burnett"
                     fill
                     className="object-cover"
                   />
-                </div> */}
+                </div>
                 <div className="text-center sm:text-left">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                     Wendy Burnett
                   </h3>
-                  {/* <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-300">
-                    
-                  </p> */}
+                  <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-300">
+                    Wendy works as a library associate doing many different jobs
+                    in a public library. Books and libraries have been an
+                    important part of her life since she was a toddler. Her
+                    dream is to one day have a makerspace lab at the library
+                    where everyone can learn and enjoy the different aspects of
+                    creating. She loves spending time with her family, reading,
+                    music, and creating using her 3d printers, silhouette cameo,
+                    crocheting and more.
+                  </p>
                 </div>
               </div>
             </div>
