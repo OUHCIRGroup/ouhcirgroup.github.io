@@ -7,6 +7,10 @@ export const labNewsByYear: LabNewsYear[] = [
   {
     year: 2026,
     items: [
+      `Graduate Student Nischal Dinesh will join I-CCEW Software Business Accelerator at OU as a Software Developer Intern. Congratulations!`,
+      `PhD Candidate Mahdieh (Maddy) Nazari received Graduate College Bullard Dissertation Completion Fellowship. Congratulations!`,
+      `New Grant: DFCAS Collaborative Research Fellowship award: “Data Science for Public Health: Designing and Evaluating LLM-based Conversational AI for Intimate Partner Violence Prevention”. $25,000, PI: Dr. Yu Lu, Health Sciences; co-PI: Dr. Jiqun Liu.`,
+      `New Grant: DISC Nexus Seed Funding: “AI-enabled Time-series Modeling of Daily Functional Organization to Support Early ADRD Care”. $25,000. PI: Dr. Ziming Liu (CS). co-PIs: Dr. Jiqun Liu, Dr. Yi Wu (CS), Dr. Tara Kalinedinst (HSC), Dr. Clarie Nouh (HSC).`,
       `We are excited to release **[ECHO](https://github.com/OUHCIRGroup/echo)**, an open, low-code research platform for reproducible evaluation of conversational AI and Web search! ECHO enables researchers and students across IR and HCI, social sciences, and humanities to rapidly design and run end-to-end user studies, combining chat, search, surveys, and fine-grained interaction logging, **with little to no coding**. An intro tutorial video is available [here](https://drive.google.com/file/d/1T16fFcsGkQIPIIHZsaMCFw8yEAn2V5ER/view?usp=share_link).`,
     ],
   },
