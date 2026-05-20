@@ -28,6 +28,15 @@ export const publicationsByYear: PublicationYearGroup[] = [
     year: 2026,
     items: [
       {
+        id: "decoy2026",
+        year: 2026,
+        authors: "Liu, J. & He, J.",
+        title:
+          "The Decoy dilemma in online medical information evaluation: A comparative study of credibility assessments by LLM and human judges.",
+        venue: "ACM Transactions on Interactive Intelligent Systems",
+        type: "journal",
+      },
+      {
         id: "he2026-transparency",
         year: 2026,
         type: "conference",
@@ -845,7 +854,7 @@ export const publicationsByYear: PublicationYearGroup[] = [
 
 // Flattened list (useful for helpers)
 export const allPublications: Publication[] = publicationsByYear.flatMap(
-  (yearGroup) => yearGroup.items
+  (yearGroup) => yearGroup.items,
 );
 
 // Helper: get publications by a list of IDs (for Recent Publications on home page)

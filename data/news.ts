@@ -7,6 +7,8 @@ export const labNewsByYear: LabNewsYear[] = [
   {
     year: 2026,
     items: [
+      `PhD student Ziyang Xu received ICAST Graduate Student Researcher Award for his research project “Evaluating and mitigating cognitive biases in large language models: A comparative study against human baselines” under Dr. Liu’s supervision. Congratulations!`,
+      `Excited to share that our open-source research platform ECHO [add ECHO github link here] is covered by OU News! **[link inserted here](https://www.ou.edu/news/articles/2026/may/free-software-for-researching-human-ai-interactions)**`,
       `Graduate Student Nischal Dinesh will join I-CCEW Software Business Accelerator at OU as a Software Developer Intern. Congratulations!`,
       `PhD Candidate Mahdieh (Maddy) Nazari received Graduate College Bullard Dissertation Completion Fellowship. Congratulations!`,
       `New Grant: DFCAS Collaborative Research Fellowship award: “Data Science for Public Health: Designing and Evaluating LLM-based Conversational AI for Intimate Partner Violence Prevention”. $25,000, PI: Dr. Yu Lu, Health Sciences; co-PI: Dr. Jiqun Liu.`,
