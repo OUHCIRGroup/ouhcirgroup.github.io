@@ -108,6 +108,26 @@ export const peopleSections: PeopleSection[] = [
         period: "2025 –",
         description: "Keywords: Large Language Models, Big Data",
       },
+      {
+        id: "peter-oh",
+        name: "Seunghyun (Peter) Oh",
+        category: "masters",
+        image: "/people/peter.jpg",
+        role: "Data Science, OU",
+        period: "2026 –",
+        description:
+          "Keywords: Large Language Models, Conversational Information Access, and multi-turn dialogue evaluation.",
+      },
+      {
+        id: "Yanyan-luo",
+        name: "Yanyan Luo",
+        category: "masters",
+        image: "/people/yanyan.jpeg",
+        role: "Data Science, OU",
+        period: "2026 –",
+        description:
+          "Keywords: Human-AI interaction and large language model evaluation.",
+      },
     ],
   },
 

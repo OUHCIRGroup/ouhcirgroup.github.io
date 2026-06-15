@@ -35,6 +35,12 @@ export const publicationsByYear: PublicationYearGroup[] = [
           "The Decoy dilemma in online medical information evaluation: A comparative study of credibility assessments by LLM and human judges.",
         venue: "ACM Transactions on Interactive Intelligent Systems",
         type: "journal",
+        links: [
+          {
+            label: "Preprint",
+            url: "https://dl.acm.org/doi/10.1145/3820166",
+          },
+        ],
       },
       {
         id: "he2026-transparency",
