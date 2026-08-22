@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "HCIR Lab",
   description:
-    "At the OU Human-Computer Interaction and Recommendation (HCIR) Lab, we are working toward modeling and supporting people’s problem-solving and decision-making activities with intelligent information search and recommender systems, and understanding the economic, societal, and ethical impacts of advanced search and recommendation algorithms.",
+    "At the Human-Computer Interaction and Recommendation (HCIR) Lab, we are working toward modeling and supporting people’s problem-solving and decision-making activities with intelligent information search and recommender systems, and understanding the economic, societal, and ethical impacts of advanced search and recommendation algorithms.",
 };
 
 export default function RootLayout({
