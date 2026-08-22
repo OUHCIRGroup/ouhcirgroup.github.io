@@ -100,7 +100,7 @@ export default function ContactPage() {
                   For research, collaboration, or student opportunities.
                 </p>
                 <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
-                  <a href="mailto:jiqunliu@ou.edu">jiqunliu@ou.edu</a>
+                  <a href="mailto:jiqunliu@uwm.edu">jiqunliu@uwm.edu</a>
                 </p>
               </div>
 
