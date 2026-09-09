@@ -271,19 +271,20 @@ export default function IMLSProjectPage() {
                     Soo Hyeon Kim
                   </h3>
                   <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-300">
-                    Soo Hyeon Kim, Ph.D. is an Assistant Professor in the
-                    Department of Library and Information Science at Indiana
-                    University Indianapolis. Dr. Kim’s research spans across
-                    library makerspace, maker-based STEM learning in public
-                    libraries, and intergenerational participation. Her research
-                    aims to broaden and support children’s STEM learning
-                    opportunities by transforming public libraries and family
-                    interactions as facilitators for tech-supported maker
-                    experiences. She served as a principal investigator for
-                    IMLS-funded Family Makers project that involved rural
-                    librareis to co-design and implement engineering programs
-                    and has widely published in the field of library and
-                    information science and the learning sciences.
+                    Soo Hyeon Kim, Ph.D. is an Assistant Professor in the School 
+                    of Information at Florida State University. Previously, she 
+                    was an Associate Professor in the Department of Library and 
+                    Information Science at Indiana University Indianapolis.
+                    Dr. Kim’s research spans across library makerspace, maker-based 
+                    STEM learning in public libraries, and intergenerational 
+                    participation. Her research aims to broaden and support 
+                    children’s STEM learning opportunities by transforming 
+                    public libraries and family interactions as facilitators 
+                    for tech-supported maker experiences. She served as a 
+                    principal investigator for IMLS-funded Family Makers project 
+                    that involved rural librareis to co-design and implement 
+                    engineering programs and has widely published in the field of 
+                    library and information science and the learning sciences.
                   </p>
                 </div>
               </div>
