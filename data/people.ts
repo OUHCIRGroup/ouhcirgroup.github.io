@@ -47,7 +47,7 @@ export const peopleSections: PeopleSection[] = [
         name: "Yong Ju Jung",
         category: "faculty",
         image: "/people/image_jung.jpg",
-        role: "Assistant Professor",
+        role: "Associate Professor",
         affiliation:
           "School of Library and Information Studies, University of Oklahoma",
         website: "https://scholar.google.com/citations?user=bRyezogAAAAJ&hl=en",

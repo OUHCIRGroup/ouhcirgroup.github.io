@@ -91,8 +91,8 @@ export default function TATEPage() {
             </h2>
           </div>
 
-          <div className="flex flex-col items-center gap-4">
-            <div className="relative h-44 w-44">
+          <div className="flow-root space-y-4">
+            <div className="relative float-left mb-2 mr-5 mt-1 h-36 w-36 sm:mr-6 sm:h-52 sm:w-52">
               <Image
                 src="/TATE.png"
                 alt="TATE initiative logo"
@@ -168,6 +168,20 @@ export default function TATEPage() {
             </Link>
             , supports reproducibility and interdisciplinary collaboration.
           </p>
+          <a
+            href="/tate-workflow.webp"
+            target="_blank"
+            rel="noreferrer"
+            className="block"
+          >
+            <Image
+              src="/tate-workflow.webp"
+              alt="TATE workflow: a core vision of human-centered AI, trustworthy systems, and a fair and healthy society leads to five key research topics (AI harm measurement and mitigation; human vulnerability and behavioral manipulation; expectation confirmation and functional fixedness; biases in medical information retrieval and evaluation; evaluation of generative AI in long-term task performance). Cross-cutting methods are AI auditing, bias mitigation, human-AI collaboration, user modeling, and evaluation. The intended impact is safer AI experiences, sustainable human-AI collaboration, and training future researchers and technology leaders."
+              width={1916}
+              height={821}
+              className="h-auto w-full"
+            />
+          </a>
         </div>
 
         {/* Education and Community Engagement */}
