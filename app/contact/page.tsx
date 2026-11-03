@@ -90,8 +90,7 @@ export default function ContactPage() {
                   Phone
                 </h3>
                 <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                  School of Information Studies main office (not a direct
-                  office line).
+                  Dr. Jiqun Liu&apos;s work phone.
                 </p>
                 <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
                   <a href="tel:+14142519069">+1 (414) 251-9069</a>
