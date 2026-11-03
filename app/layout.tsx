@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "HCIR Lab",
+  title: "HCIR Lab at UWM",
   description:
-    "At the Human-Computer Interaction and Recommendation (HCIR) Lab, we are working toward modeling and supporting people’s problem-solving and decision-making activities with intelligent information search and recommender systems, and understanding the economic, societal, and ethical impacts of advanced search and recommendation algorithms.",
+    "The Human-Computer Interaction and Recommendation (HCIR) Lab at the University of Wisconsin–Milwaukee's School of Information Studies investigates how people interact with information, search and recommendation systems, and artificial intelligence.",
 };
 
 export default function RootLayout({

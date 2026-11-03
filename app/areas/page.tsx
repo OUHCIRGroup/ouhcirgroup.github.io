@@ -1,21 +1,34 @@
-import { Brain, Cpu, Atom } from "lucide-react";
+import { Brain, Bot, ShieldCheck, Users } from "lucide-react";
 
 export default function ResearchAreasPage() {
   const areas = [
     {
-      id: "cognitive-psychology-ir",
+      id: "human-cognition-ai",
       icon: Brain,
-      title: "Cognitive Psychology + Information Retrieval",
+      title: "Human Cognition, Judgment, and AI",
+      description:
+        "Investigating bounded rationality, cognitive biases, heuristics, and vulnerabilities in human interactions with information systems and AI.",
     },
     {
-      id: "ml-ir",
-      icon: Cpu,
-      title: "Machine Learning + Information Retrieval",
+      id: "generative-agentic-systems",
+      icon: Bot,
+      title: "Generative and Agentic Information Systems",
+      description:
+        "Developing and evaluating conversational search, intelligent recommendation, personalized AI agents, and systems that support complex information seeking and decision-making.",
     },
     {
-      id: "state-aware-adaptive-ir",
-      icon: Atom,
-      title: "State-Aware Adaptive IR Systems",
+      id: "human-centered-ai-evaluation",
+      icon: ShieldCheck,
+      title: "Human-Centered AI Evaluation and Auditing",
+      description:
+        "Studying model reliability, LLM-based judgments, cognitive and algorithmic bias, explainability, and evaluation methods that account for human behavior and decision outcomes.",
+    },
+    {
+      id: "digital-resilience-ai-literacy",
+      icon: Users,
+      title: "Digital Resilience and Community AI Literacy",
+      description:
+        "Designing and evaluating AI-assisted learning experiences and interventions that improve information literacy, responsible AI use, and equitable access to technology.",
     },
   ];
 
@@ -30,7 +43,7 @@ export default function ResearchAreasPage() {
         </div>
 
         {/* Area cards */}
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2">
           {areas.map((area) => {
             const Icon = area.icon;
             return (
@@ -45,6 +58,9 @@ export default function ResearchAreasPage() {
                 <h2 className="text-sm font-semibold leading-snug text-gray-900 dark:text-white sm:text-base">
                   {area.title}
                 </h2>
+                <p className="mt-2 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">
+                  {area.description}
+                </p>
               </article>
             );
           })}

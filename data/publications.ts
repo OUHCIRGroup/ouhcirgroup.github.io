@@ -28,17 +28,112 @@ export const publicationsByYear: PublicationYearGroup[] = [
     year: 2026,
     items: [
       {
-        id: "decoy2026",
+        id: "delima2026-stability-regimes-neurips",
         year: 2026,
-        authors: "Liu, J. & He, J.",
+        type: "conference",
+        authors: "De Lima, V., Liu, J., & Yang, G. H.",
         title:
-          "The Decoy dilemma in online medical information evaluation: A comparative study of credibility assessments by LLM and human judges.",
-        venue: "ACM Transactions on Interactive Intelligent Systems",
-        type: "journal",
+          "Stability regimes for framing-sensitive fine-tuning in language models",
+        venue:
+          "In Advances in Neural Information Processing Systems 39 (NeurIPS 2026).",
+        extra: "Accepted, to appear",
         links: [
           {
             label: "Preprint",
-            url: "https://dl.acm.org/doi/10.1145/3820166",
+            url: "https://arxiv.org/abs/2602.15273",
+          },
+        ],
+      },
+      {
+        id: "hoppe2026-iwilds-cikm",
+        year: 2026,
+        type: "other",
+        authors: "Hoppe, A., Bhattacharya, N., Liu, J., & Yu, R.",
+        title:
+          "IWILDS'26: The 6th International Workshop on Investigating Learning during Web Search and AI-Mediated Information Access",
+        venue:
+          "In Proceedings of the 35th ACM International Conference on Information and Knowledge Management (CIKM).",
+        links: [
+          {
+            label: "Paper",
+            url: "https://doi.org/10.1145/3799682.3839290",
+          },
+        ],
+      },
+      {
+        id: "oh2026-primacy-bias-jcdl",
+        year: 2026,
+        type: "conference",
+        authors: "Oh, P. S., Luo, Y., & Liu, J.",
+        title:
+          "Stuck on the first answer? Auditing primacy bias in multi-turn LLM preference revision via causal masking",
+        venue:
+          "In Proceedings of the 26th ACM/IEEE Joint Conference on Digital Libraries (JCDL).",
+        links: [
+          {
+            label: "Paper",
+            url: "https://doi.org/10.1145/3805696.3846485",
+          },
+        ],
+      },
+      {
+        id: "nazari2026-physicality-gap-jcdl",
+        year: 2026,
+        type: "conference",
+        authors: "Nazari, M., Liu, J., & Jung, Y. J.",
+        title:
+          "Bridging the physicality gap: Conversational repair strategies in AI-supported maker learning",
+        venue:
+          "In Proceedings of the 26th ACM/IEEE Joint Conference on Digital Libraries (JCDL).",
+        links: [
+          {
+            label: "Paper",
+            url: "https://doi.org/10.1145/3805696.3846481",
+          },
+        ],
+      },
+      {
+        id: "liu2026-bounded-minds-cacm",
+        year: 2026,
+        type: "journal",
+        authors: "Liu, J.",
+        title:
+          "Bounded minds, generative machines: Envisioning conversational AI that works with human heuristics and reduces bias risk",
+        venue: "Communications of the ACM, 69(10), 35–37.",
+        links: [
+          {
+            label: "Paper",
+            url: "https://doi.org/10.1145/3790104",
+          },
+        ],
+      },
+      {
+        id: "decoy2026",
+        year: 2026,
+        type: "journal",
+        authors: "Liu, J., & He, J.",
+        title:
+          "The decoy dilemma in online medical information evaluation: A comparative study of credibility assessments by LLM and human judges",
+        venue: "ACM Transactions on Interactive Intelligent Systems, 16(4), 1–32.",
+        links: [
+          {
+            label: "Paper",
+            url: "https://doi.org/10.1145/3820166",
+          },
+        ],
+      },
+      {
+        id: "dewan2026-usefulness-judgment-ictir",
+        year: 2026,
+        type: "conference",
+        authors: "Dewan, M., Liu, J., Gautam, A., & Shah, C.",
+        title: "LLM-driven usefulness judgment for web search evaluation",
+        venue:
+          "In Proceedings of the 2026 International ACM SIGIR Conference on Innovative Concepts and Theories in Information Retrieval (ICTIR).",
+        links: [
+          {
+            label: "Paper",
+            url: "https://doi.org/10.1145/3805713.3820429",
           },
         ],
       },
@@ -46,11 +141,17 @@ export const publicationsByYear: PublicationYearGroup[] = [
         id: "he2026-transparency",
         year: 2026,
         type: "conference",
-        authors: "He, J. & Liu, J.",
+        authors: "He, J., & Liu, J.",
         title:
-          "Not All Transparency Is Equal: Source Presentation Effects on Attention, Interaction, and Persuasion in Conversational Search",
+          "Not all transparency is equal: Source presentation effects on attention, interaction, and persuasion in conversational search",
         venue:
-          "In Proceedings of the ACM SIGIR Conference on Human Information Interaction and Retrieval. New York, NY: ACM (CHIIR).",
+          "In Proceedings of the 2026 ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR), 529–533.",
+        links: [
+          {
+            label: "Paper",
+            url: "https://doi.org/10.1145/3786304.3787874",
+          },
+        ],
       },
       {
         id: "jiang2026-data-reusability-community",
@@ -58,9 +159,15 @@ export const publicationsByYear: PublicationYearGroup[] = [
         type: "conference",
         authors: "Jiang, T., Li, W., & Liu, J.",
         title:
-          "Improving data reusability in interactive information retrieval: Insights from the community",
+          "Improving data reusability in interactive IR: Insights from the community",
         venue:
-          "In Proceedings of the ACM SIGIR Conference on Human Information Interaction and Retrieval. New York, NY: ACM (CHIIR).",
+          "In Proceedings of the 2026 ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR).",
+        links: [
+          {
+            label: "Paper",
+            url: "https://doi.org/10.1145/3786304.3787885",
+          },
+        ],
       },
       {
         id: "dewan2026-true",
@@ -70,11 +177,15 @@ export const publicationsByYear: PublicationYearGroup[] = [
         title:
           "TRUE: A reproducible framework for LLM-driven relevance judgment in information retrieval",
         venue:
-          "In Proceedings of the 19th ACM International Conference on Web Search and Data Mining. Boise, Idaho. 4 pages. (WSDM).",
+          "In Proceedings of the 19th ACM International Conference on Web Search and Data Mining (WSDM), Boise, Idaho.",
         links: [
           {
+            label: "Paper",
+            url: "https://doi.org/10.1145/3773966.3779397",
+          },
+          {
             label: "Preprint",
-            url: "https://arxiv.org/pdf/2509.25602",
+            url: "https://arxiv.org/abs/2509.25602",
           },
         ],
       },
@@ -82,15 +193,19 @@ export const publicationsByYear: PublicationYearGroup[] = [
         id: "chen2026-threshold-priming",
         year: 2026,
         type: "conference",
-        authors: "Chen, N., Fang, H., Liu, J., Wei, W., Sakai, T., & Wu, X-M.",
+        authors: "Chen, N., Fang, H., Liu, J., Wei, W., Sakai, T., & Wu, X.-M.",
         title:
           "Mitigating the threshold priming effect in large language model-based relevance judgments via personality simulation",
         venue:
-          "In Proceedings of the 19th ACM International Conference on Web Search and Data Mining. Boise, Idaho. 4 pages. (WSDM).",
+          "In Proceedings of the 19th ACM International Conference on Web Search and Data Mining (WSDM), Boise, Idaho, 1099–1104.",
         links: [
           {
+            label: "Paper",
+            url: "https://doi.org/10.1145/3773966.3779384",
+          },
+          {
             label: "Preprint",
-            url: "https://arxiv.org/pdf/2512.00390",
+            url: "https://arxiv.org/abs/2512.00390",
           },
         ],
       },

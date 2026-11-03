@@ -35,9 +35,9 @@ export const peopleSections: PeopleSection[] = [
         name: "Jiqun Liu",
         category: "faculty",
         image: "/people/jiqunliu.png",
-        role: "Associate Professor and Lab Director",
+        role: "Associate Professor (AI and Data Science) and Lab Director",
         affiliation:
-          "School of Library and Information Studies, University of Oklahoma",
+          "School of Information Studies, University of Wisconsin–Milwaukee",
         website: "https://jiqunl.github.io/me/",
         description:
           "My research focuses on the intersection of human-computer interaction (HCI), interactive information seeking/retrieval, and cognitive psychology, and seeks to apply the knowledge learned about people interacting with information in adaptive recommendation, user education, and intelligent nudging.",

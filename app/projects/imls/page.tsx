@@ -41,7 +41,8 @@ export default function IMLSProjectPage() {
         <div className="mb-8 rounded-lg border border-zinc-200 bg-zinc-50 p-4 dark:border-zinc-700 dark:bg-zinc-800">
           <p className="mb-1 text-sm text-gray-700 dark:text-gray-300">
             <span className="font-semibold">Project Lead:</span> PI: Dr. Jiqun
-            Liu; Co PI: Dr. Yong Ju Jung
+            Liu (University of Wisconsin&ndash;Milwaukee); Co-PI: Dr. Yong Ju
+            Jung (University of Oklahoma)
           </p>
           <p className="text-sm text-gray-700 dark:text-gray-300">
             <span className="font-semibold">Graduate Students/Assistants:</span>{" "}
@@ -54,11 +55,15 @@ export default function IMLSProjectPage() {
             Participate in Our Survey
           </h2>
           <p className="mb-4 text-sm leading-relaxed text-gray-700 dark:text-gray-300 text-justify">
-            We are a research team from the University of Oklahoma inviting
-            public library professionals to participate in a survey for our
-            IMLS-funded project: Gauging Library Needs for Integrating
-            Generative AI into Children&apos;s Maker-Based Learning
-            (LG-259132-OLS-25).
+            We are a cross-institutional research team, led by Dr. Jiqun Liu
+            (School of Information Studies, University of Wisconsin&ndash;Milwaukee)
+            and Dr. Yong Ju Jung (School of Library and Information Studies,
+            University of Oklahoma), inviting public library professionals to
+            participate in a survey for our IMLS-funded project: Gauging Library
+            Needs for Integrating Generative AI into Children&apos;s Maker-Based
+            Learning (LG-259132-OLS-25). The award was made to the
+            University of Oklahoma, and the project is carried out as a
+            collaboration between researchers at UWM and OU.
           </p>
           <p className="mb-4 text-sm leading-relaxed text-gray-700 dark:text-gray-300 text-justify">
             This project investigates how library professionals perceive the
@@ -87,7 +92,7 @@ export default function IMLSProjectPage() {
             Participation is voluntary and you may skip any question or withdraw
             at any time. For questions, contact{" "}
             <a
-              href="mailto:jiqunliu@ou.edu"
+              href="mailto:jiqunliu@uwm.edu"
               className="text-blue-600 hover:underline dark:text-blue-400"
             >
               Dr. Jiqun Liu
@@ -122,7 +127,7 @@ export default function IMLSProjectPage() {
             than replace, the educational role of library professionals.
           </p>
           <p className="mb-4 text-sm leading-relaxed text-gray-700 dark:text-gray-300 text-justify">
-            This IMLS planning project (Award number: LG-257169-OLS)
+            This IMLS planning project (Award number: LG-259132-OLS-25)
             investigates how generative AI can support children&apos;s
             creativity, inquiry, and learning while aligning with the values of
             public libraries and the developmental needs of young learners. It
@@ -281,7 +286,7 @@ export default function IMLSProjectPage() {
                     interactions as facilitators for tech-supported maker
                     experiences. She served as a principal investigator for
                     IMLS-funded Family Makers project that involved rural
-                    librareis to co-design and implement engineering programs
+                    libraries to co-design and implement engineering programs
                     and has widely published in the field of library and
                     information science and the learning sciences.
                   </p>
@@ -376,7 +381,7 @@ export default function IMLSProjectPage() {
 
         <div className="mb-8">
           <h2 className="mb-6 text-xl font-semibold text-gray-900 dark:text-white">
-            Parter Library Representatives
+            Partner Library Representatives
           </h2>
           <div className="flex flex-col gap-6">
             <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:border-blue-200 dark:border-zinc-700 dark:bg-zinc-800 dark:hover:border-blue-600">
