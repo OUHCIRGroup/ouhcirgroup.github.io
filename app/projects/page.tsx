@@ -1,8 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import { projects } from "@/data/projects";
+import { projects, type Project } from "@/data/projects";
 
 export default function ProjectsPage() {
+  const directions = projects.filter((p) => p.kind === "direction");
+  const funded = projects.filter((p) => p.kind !== "direction");
+
   return (
     <section className="bg-white dark:bg-gray-900">
       <div className="mx-auto max-w-6xl px-6 py-4 sm:px-10 lg:px-16">
@@ -13,8 +16,24 @@ export default function ProjectsPage() {
           </h1>
         </div>
 
+        <h2 className="mb-4 text-xl font-bold tracking-tight text-blue-500">
+          Current Research Directions
+        </h2>
+        <ProjectList items={directions} />
+
+        <h2 className="mb-4 mt-10 text-xl font-bold tracking-tight text-blue-500">
+          Funded and Ongoing Projects
+        </h2>
+        <ProjectList items={funded} />
+      </div>
+    </section>
+  );
+}
+
+function ProjectList({ items }: { items: Project[] }) {
+  return (
         <div className="space-y-6">
-          {projects.map((project, idx) => (
+          {items.map((project, idx) => (
             <article
               key={project.id}
               className={[
@@ -40,19 +59,26 @@ export default function ProjectsPage() {
               <div className="flex-1 space-y-2">
                 {project.id === "imls" ? (
                   <Link href={`/projects/${project.id}`}>
-                    <h2 className="text-lg font-semibold leading-snug text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400">
+                    <h3 className="text-lg font-semibold leading-snug text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400">
                       {project.title}
-                    </h2>
+                    </h3>
                   </Link>
                 ) : (
-                  <h2 className="text-lg font-semibold leading-snug text-gray-900 dark:text-white">
+                  <h3 className="text-lg font-semibold leading-snug text-gray-900 dark:text-white">
                     {project.title}
-                  </h2>
+                  </h3>
                 )}
 
                 <p className="text-sm leading-relaxed text-gray-700 dark:text-gray-300 text-justify">
                   {project.description}
                 </p>
+
+                {project.funding && (
+                  <p className="text-xs leading-relaxed text-zinc-500 dark:text-zinc-400">
+                    <span className="font-semibold">Funding:</span>{" "}
+                    {project.funding}
+                  </p>
+                )}
 
                 {project.links && project.links.length > 0 && (
                   <div className="pt-1">
@@ -75,7 +101,5 @@ export default function ProjectsPage() {
             </article>
           ))}
         </div>
-      </div>
-    </section>
   );
 }

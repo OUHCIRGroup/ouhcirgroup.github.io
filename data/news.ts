@@ -7,8 +7,13 @@ export const labNewsByYear: LabNewsYear[] = [
   {
     year: 2026,
     items: [
+      `**October 2026 – Communications of the ACM:** Our article “[Bounded Minds, Generative Machines: Envisioning Conversational AI that Works with Human Heuristics and Reduces Bias Risk](https://doi.org/10.1145/3790104)” was published in *Communications of the ACM*.`,
+      `**2026 – NeurIPS:** Our paper “[Stability Regimes for Framing-Sensitive Fine-Tuning in Language Models](https://arxiv.org/abs/2602.15273)” (with Victor De Lima and Grace Hui Yang) was accepted to NeurIPS 2026.`,
+      `**September 16, 2026 – UWM News Feature:** UWM’s School of Information Studies [featured Dr. Liu’s FOX6 interview](https://uwm.edu/informationstudies/sois-faculty-member-jiqun-liu-discusses-ai-legislative-guardrails-with-fox6-now/) on AI regulation and legislative guardrails.`,
+      `**September 14, 2026 – FOX6 Milwaukee Interview:** Dr. Jiqun Liu [appeared on FOX6 Milwaukee](https://www.fox6now.com/video/fmc-e3hgqpdcm72clord.amp) to discuss whether artificial intelligence needs legislative guardrails and the role of regulation in responsible AI development.`,
+      `**August 2026 – HCIR Lab Transition:** Dr. Jiqun Liu [joined the School of Information Studies at the University of Wisconsin–Milwaukee](https://uwm.edu/informationstudies/jiqun-liu-joins-uw-milwaukees-school-of-information-studies-as-associate-professor/) as a tenured Associate Professor through the AI and Data Science cluster hiring initiative. The HCIR Lab’s research program continues at UWM, building on previous research and collaborations at OU.`,
       `PhD student Ziyang Xu received ICAST Graduate Student Researcher Award for his research project “Evaluating and mitigating cognitive biases in large language models: A comparative study against human baselines” under Dr. Liu’s supervision. Congratulations!`,
-      `Excited to share that our open-source research platform **[ECHO](https://github.com/OUHCIRGroup/echo)** is covered by OU News! **[link inserted here](https://www.ou.edu/news/articles/2026/may/free-software-for-researching-human-ai-interactions)**`,
+      `Excited to share that our open-source research platform **[ECHO](https://github.com/OUHCIRGroup/echo)** is covered by OU News! **[Read the story](https://www.ou.edu/news/articles/2026/may/free-software-for-researching-human-ai-interactions)**`,
       `Graduate Student Nischal Dinesh will join I-CCEW Software Business Accelerator at OU as a Software Developer Intern. Congratulations!`,
       `PhD Candidate Mahdieh (Maddy) Nazari received Graduate College Bullard Dissertation Completion Fellowship. Congratulations!`,
       `New Grant: DFCAS Collaborative Research Fellowship award: “Data Science for Public Health: Designing and Evaluating LLM-based Conversational AI for Intimate Partner Violence Prevention”. $25,000, PI: Dr. Yu Lu, Health Sciences; co-PI: Dr. Jiqun Liu.`,

@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function ContactPage() {
   return (
     <section className="bg-white dark:bg-gray-900">
@@ -7,58 +5,23 @@ export default function ContactPage() {
         <div className="space-y-4">
           <div>
             <p className="text-sm font-semibold uppercase tracking-wide text-zinc-500">
-              HCIR Lab at OU SLIS
+              HCIR Lab at UWM SOIS
             </p>
 
             <h2 className="mt-2 text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">
-              Physical Lab Space
+              Research Collaboration
             </h2>
           </div>
 
-          <div className="grid gap-4 sm:grid-cols-3">
-            <div className="relative h-40 overflow-hidden  border-gray-200 dark:border-gray-700 sm:h-44 md:h-52">
-              <Image
-                src="/lab/1.jpg"
-                alt="HCIR lab space – participant and researcher desks"
-                fill
-                className="object-contain"
-              />
-            </div>
-            <div className="relative h-40 overflow-hidden  border-gray-200 dark:border-gray-700 sm:h-44 md:h-52">
-              <Image
-                src="/lab/2.jpg"
-                alt="HCIR lab space – divider and experimental setup"
-                fill
-                className="object-contain"
-              />
-            </div>
-            <div className="relative h-40 overflow-hidden  border-gray-200 dark:border-gray-700 sm:h-44 md:h-52">
-              <Image
-                src="/lab/3.jpg"
-                alt="HCIR lab space – meeting and waiting area"
-                fill
-                className="object-contain"
-              />
-            </div>
-          </div>
-
           <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-300 text-justify">
-            PI Liu and project team build a new Human-Computer Interaction and
-            Recommendation (HCIR) lab, with a physical space at the Bizzell
-            Memorial Library (School of Library and Information Studies), for
-            running user study sessions and facilitating in-person group
-            meetings among team members. The lab has two desktop computers (one
-            for the participant, one for the observer/researcher, with a panel
-            dividing the two separate workplaces), with the data collection and
-            experimental systems installed. The lab also provides a separate
-            area for small-group meeting, consent and instruction form
-            preparation, and participants who are waiting for their sessions. To
-            protect participants under the COVID pandemic, the lab also offers
-            personal protective supplies, including medical masks and hand
-            sanitizers. Beyond the scope of this project, we expect to use the
-            lab for supporting future user studies in evaluating IR and
-            recommender systems and also for facilitating students’ learning and
-            training about the procedure and tools related to user studies.
+            The Human-Computer Interaction and Recommendation (HCIR) Lab is
+            part of the School of Information Studies (SOIS) at the University
+            of Wisconsin–Milwaukee. We welcome inquiries about research
+            collaborations, student research opportunities, and partnerships
+            with academic, library, community, and industry organizations in
+            areas such as human-centered AI evaluation, conversational and
+            generative information retrieval, cognitive biases in human–AI
+            interaction, and AI literacy.
           </p>
         </div>
 
@@ -127,10 +90,11 @@ export default function ContactPage() {
                   Phone
                 </h3>
                 <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                  Mon–Fri, 8:00 AM – 5:00 PM (CST).
+                  School of Information Studies main office (not a direct
+                  office line).
                 </p>
                 <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
-                  +1 (405) 325-3921
+                  <a href="tel:+14142519069">+1 (414) 251-9069</a>
                 </p>
               </div>
 
@@ -159,17 +123,19 @@ export default function ContactPage() {
                 </span>
 
                 <h3 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
-                  Office
+                  Location
                 </h3>
                 <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                  Come say hello at our lab space.
+                  School of Information Studies address.
                 </p>
                 <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
-                  Bizzell Library, Room 120,
+                  School of Information Studies
                   <br />
-                  University of Oklahoma
+                  University of Wisconsin–Milwaukee
                   <br />
-                  401 West Brooks, Norman, OK 73019
+                  Northwest Quadrant, Building D, 3rd Floor
+                  <br />
+                  2025 E. Newport Ave., Milwaukee, WI 53211
                 </p>
               </div>
             </div>
@@ -179,8 +145,8 @@ export default function ContactPage() {
               <iframe
                 width="100%"
                 height="100%"
-                title="OU HCIR Lab Location - Bizzell Memorial Library"
-                src="https://www.google.com/maps?q=Bizzell+Memorial+Library+Norman+OK&output=embed"
+                title="UWM School of Information Studies - Northwest Quadrant"
+                src="https://www.google.com/maps?q=2025+E+Newport+Ave,+Milwaukee,+WI+53211&output=embed"
               />
             </div>
           </div>

@@ -14,7 +14,7 @@ export default function Home() {
           <aside className="flex justify-center md:justify-start">
             <Image
               src="/hcir.png"
-              alt="OU HCIR Lab"
+              alt="HCIR Lab research illustration: human cognition and AI systems"
               height={600}
               width={600}
               className="object-contain"
@@ -24,37 +24,42 @@ export default function Home() {
           {/* Right column: first 2 paragraphs */}
           <section className="space-y-3 md:text-left text-justify">
             <p className="text-md leading-relaxed text-left text-zinc-700 dark:text-zinc-300">
-              At the{" "}
+              The{" "}
               <span className="font-bold">
-                OU Human-Computer Interaction and Recommendation
+                Human-Computer Interaction and Recommendation (HCIR) Lab
               </span>{" "}
-              (HCIR) Lab, we are working toward modeling and supporting people’s
-              problem-solving and decision-making activities with intelligent
-              information search and recommender systems, and understanding the
-              economic, societal, and ethical impacts of advanced search and
-              recommendation algorithms.
+              at the University of Wisconsin–Milwaukee&apos;s School of
+              Information Studies investigates how people interact with
+              information, search and recommendation systems, and artificial
+              intelligence. Our research brings together information retrieval,
+              human-computer interaction, cognitive psychology, and machine
+              learning to understand and support human information seeking,
+              judgment, and decision-making.
             </p>
 
             <p className="text-md leading-relaxed text-left text-zinc-700 dark:text-zinc-300">
-              Our long-term research goal is to provide useful, timely, fair,
-              and responsible information support for people from diverse
-              backgrounds and communities. Our methods include computational
-              approaches such as data/text mining, deep learning, and natural
-              language processing, as well as qualitative, participatory, and
-              user study research methods.
+              A central focus of our work is understanding how human cognitive
+              limitations, biases, and heuristics interact with the capabilities
+              and limitations of AI systems. We develop behavioral models,
+              evaluation methods, experimental platforms, and interventions to
+              make generative and agentic AI systems more reliable, equitable,
+              and supportive of human judgment.
             </p>
           </section>
 
           {/* Full-width row below image + text: last 2 paragraphs */}
           <div className="md:col-span-2 md:row-start-2 space-y-3 -mt-2">
             <p className="text-md leading-relaxed text-left text-zinc-700 dark:text-zinc-300">
-              Topics of interest include user biases in information
-              interactions, intelligent information retrieval, bias-aware
-              recommender systems, and adaptive information system evaluation.
+              Our research covers human-centered AI evaluation, conversational
+              and generative information retrieval, cognitive vulnerability and
+              digital resilience, AI-assisted decision-making, and responsible
+              personalization. We combine computational modeling and machine
+              learning with controlled experiments, human evaluation, and
+              participatory research methods.
             </p>
 
             <p className="text-md leading-relaxed text-left text-zinc-700 dark:text-zinc-300">
-              The Principal Investigator,{" "}
+              Founded in 2020, the HCIR Lab is directed by{" "}
               <Link
                 className="font-bold text-blue-500"
                 href="https://jiqunl.github.io/me/"
@@ -63,10 +68,10 @@ export default function Home() {
               >
                 Dr. Jiqun Liu
               </Link>
-              , started this lab in 2020. Dr. Liu is an interdisciplinary
-              information science researcher by training, with research
-              interests, including information retrieval, recommender system,
-              bounded rationality, and ethics in human-computer interaction.
+              , Associate Professor specializing in AI and Data Science in the
+              School of Information Studies at the University of
+              Wisconsin–Milwaukee. The lab was originally established at the
+              University of Oklahoma and transitioned to UWM in 2026.
             </p>
           </div>
         </section>
@@ -127,31 +132,40 @@ export default function Home() {
           <div className="mt-4 space-y-4 text-md leading-relaxed text-zinc-700 dark:text-zinc-300">
             <p>
               We are actively looking for self-motivated students to join the
-              lab and work on interesting cutting-edge problems in HCIR-related
-              topics. Research opportunities are available at both undergraduate
-              and graduate levels. We are especially interested in students with
-              any of the following backgrounds:
+              lab and work on cutting-edge problems at the intersection of
+              people, information, and AI. Research opportunities are available
+              at both undergraduate and graduate levels. We are especially
+              interested in students with backgrounds or interests in any of the
+              following:
             </p>
 
             <ul className="space-y-2">
               <li className="list-disc pl-5">
-                Human-Computer Interaction, Interactive Information
-                Seeking/Retrieval, Cognitive Psychology or Experimental
-                Economics using quantitative or qualitative methods (or both);
+                Human-Computer Interaction and Information Retrieval, including
+                interactive search, conversational AI, and recommender systems;
               </li>
               <li className="list-disc pl-5">
-                Machine Learning, Natural Language Processing (NLP), or
-                Text/Data Mining.
+                Machine Learning and Natural Language Processing (NLP),
+                including large language model (LLM) evaluation and auditing;
+              </li>
+              <li className="list-disc pl-5">
+                Behavioral experiments and user studies, drawing on cognitive
+                psychology, behavioral economics, or quantitative and
+                qualitative methods;
+              </li>
+              <li className="list-disc pl-5">
+                Human-centered and responsible AI, including AI literacy,
+                fairness, and the societal impacts of AI.
               </li>
             </ul>
 
             <p className="text-md">
               If you are interested, please email{" "}
               <a
-                href="mailto:jiqunliu@ou.edu"
+                href="mailto:jiqunliu@uwm.edu"
                 className="font-medium text-blue-600 underline-offset-2 hover:underline"
               >
-                jiq‌unliu@ou.edu
+                jiqunliu@uwm.edu
               </a>{" "}
               with your CV and a brief description of your previous research
               experiences and current research interests.

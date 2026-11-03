@@ -256,35 +256,42 @@ export function Header() {
               Join Us
             </Link>
             <Link
-              href="/"
+              href="/people"
               className="rounded-md px-2 py-1.5 hover:bg-zinc-100 dark:hover:bg-zinc-900"
               onClick={closeMobile}
             >
               People
             </Link>
             <Link
-              href="/"
+              href="/areas"
               className="rounded-md px-2 py-1.5 hover:bg-zinc-100 dark:hover:bg-zinc-900"
               onClick={closeMobile}
             >
-              Research
+              Research Areas
             </Link>
             <Link
-              href="/"
+              href="/projects"
+              className="rounded-md px-2 py-1.5 hover:bg-zinc-100 dark:hover:bg-zinc-900"
+              onClick={closeMobile}
+            >
+              Projects
+            </Link>
+            <Link
+              href="/publications"
               className="rounded-md px-2 py-1.5 hover:bg-zinc-100 dark:hover:bg-zinc-900"
               onClick={closeMobile}
             >
               Publications
             </Link>
             <Link
-              href="/"
+              href="/tate"
               className="rounded-md px-2 py-1.5 hover:bg-zinc-100 dark:hover:bg-zinc-900"
               onClick={closeMobile}
             >
               TATE
             </Link>
             <Link
-              href="/"
+              href="/contact"
               className="rounded-md px-2 py-1.5 hover:bg-zinc-100 dark:hover:bg-zinc-900"
               onClick={closeMobile}
             >
